@@ -61,7 +61,7 @@ export function Cards3({ name, category, category1, category2 }) {
                         <img className='w-[52px]' src={img1} alt="" />View Details
                     </Button>
                 </Typography>
-                <div className="py-3 rounded-xl w-fit gap-3 font-sans">
+                <div className="py-3 rounded-xl flex w-fit gap-3 font-sans">
                     <div className="flex items-center gap-2 bg-[#1F1F1F] px-3 py-2 rounded-full w-fit">
                         <span className="text-gray-400 text-sm font-medium">Salary</span>
                         <span className="text-gray-500 text-xs">•</span>
